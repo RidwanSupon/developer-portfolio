@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    font-family: Open Sans;
+}
+
+nav .primary-color{
+    color:#FD6E0A;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    
+}
+
+
+/* navigation var*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    
+
+}
+nav li a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* nav button hire me */
+ .primary-button{
+    height: 64px;
+    border: 0;
+    background-color: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+.primary-button:hover{
+    background-color: #ba5004e0;
+}
+.primary-button:active{
+    background-color: #4f2202e0;
+    color: #FD6E0A;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0px 100px 0px 200px;
+}
+
+.banner-sub-tittle{
+    color: var(--Dark-02, #474747);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-tittle{
+    font-size: 85;
+    font-weight: 700;
+    color: var(--Dark-01, #181818);
+    margin-bottom: 20px;
+
+
+}
+.banner-description{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.CV-button{
+    height: 66px;
+    border: 0;
+    background-color: #FD6E0A;
+    
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* main about section styles */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+.about-title{
+    
+    margin-bottom: 30px;
+    color: (--Dark-01, #181818);
+}
+.about-description{
+    font-size: 18px;
+    color: var(--Dark-03, #757575);
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
