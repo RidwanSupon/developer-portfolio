@@ -115,7 +115,7 @@ main{
     padding: 130px 150px;
 }
 .about-title{
-    
+    font-size: 35px;
     margin-bottom: 30px;
     color: (--Dark-01, #181818);
 }
@@ -137,3 +137,142 @@ main{
     color: #474747;
     font-weight: 700;
 }
+
+/* ###################################################### skills / what i do? styles*/
+.what-i-do h3{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0px 110px;
+    margin-bottom: 50px;
+
+
+}
+
+.skills{
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+   
+}
+.skills img{
+    height: 44px;
+    width: 44px;
+   
+}
+.skills-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 20px;
+}
+.skills-description{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* my information container */
+.my-information-container{
+    display: flex;
+    gap: 50px;
+}
+.my-information{
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.resume h3{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 110px;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+   
+}
+.summary-sub-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.edu-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.edu-year{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.edu-description{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+/* ###########contact me##### */
+.lets-contact{
+    display: flex;
+    gap: 101px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.lets-contact .section-title{
+    text-align: left;
+    color:#181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.lets-contact p{
+    text-align: left;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.lets-contact a{
+    text-decoration: none;
+    margin-right: 24px;
+}
+.lets-contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+
+    
+}
+
